@@ -1,3 +1,5 @@
+const bubbleSort = require('../src/bubble-sort')
+
 describe('bubble sort', function() {
   it('should sort correctly', () => {
     var nums = [10,5,3,8,2,6,4,7,9,1];
